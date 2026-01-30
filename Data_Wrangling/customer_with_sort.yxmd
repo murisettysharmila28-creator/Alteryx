@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="234" y="54" />
+        <Position x="210" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -28,7 +28,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="366" y="54" />
+        <Position x="342" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -47,11 +47,11 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="522" y="54" />
+        <Position x="498" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_18612_90e079dcc65445b5895de90da8ddc507_\Engine_18612_e5f8a9d1b178403ba23b6eb9275c0f42~.yxdb</TempFile>
+          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_28512_c78db0c54b924b6582deefdd53e2bdf9_\Engine_28512_bff6fe8d01364aaf86cb8a3132a67f59~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -75,7 +75,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="162" y="222" />
+        <Position x="138" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -94,7 +94,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="510" y="210" />
+        <Position x="486" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -125,11 +125,11 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="702" y="258" />
+        <Position x="678" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_18612_90e079dcc65445b5895de90da8ddc507_\Engine_18612_9726121e4d3d44f780ae008d3fd291f0~.yxdb</TempFile>
+          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_28512_c78db0c54b924b6582deefdd53e2bdf9_\Engine_28512_e23bb0e49121436fbddfe8c2b36a92ab~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -153,11 +153,11 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="726" y="138" />
+        <Position x="702" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File MaxRecords="" FileFormat="0">C:\Users\divya\Desktop\ML 2\Week 3\output.csv</File>
+          <File MaxRecords="" FileFormat="0">C:\Sharmila\Machine Learning\Alteryx\Alteryx\Data_Wrangling\output.csv</File>
           <Passwords />
           <Disable>False</Disable>
           <FormatSpecificOptions>
@@ -184,12 +184,12 @@
     </Node>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="78" y="54" />
+        <Position x="54" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\divya\Desktop\ML 2\Week 3\Customer.xlsx|||`in$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Sharmila\Machine Learning\Alteryx\Alteryx\Data_Wrangling\Customer.xlsx|||`in$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -206,15 +206,15 @@ Query=`in$`</DefaultAnnotationText>
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="CustomerID" source="File: C:\Users\divya\Desktop\ML 2\Week 3\Customer.xlsx|||`in$`" type="Double" />
-            <Field name="FirstName" size="255" source="File: C:\Users\divya\Desktop\ML 2\Week 3\Customer.xlsx|||`in$`" type="V_String" />
-            <Field name="LastName" size="255" source="File: C:\Users\divya\Desktop\ML 2\Week 3\Customer.xlsx|||`in$`" type="V_String" />
-            <Field name="Email" size="255" source="File: C:\Users\divya\Desktop\ML 2\Week 3\Customer.xlsx|||`in$`" type="V_String" />
-            <Field name="Phone" size="255" source="File: C:\Users\divya\Desktop\ML 2\Week 3\Customer.xlsx|||`in$`" type="V_String" />
-            <Field name="Address" size="255" source="File: C:\Users\divya\Desktop\ML 2\Week 3\Customer.xlsx|||`in$`" type="V_String" />
-            <Field name="City" size="255" source="File: C:\Users\divya\Desktop\ML 2\Week 3\Customer.xlsx|||`in$`" type="V_String" />
-            <Field name="State" size="255" source="File: C:\Users\divya\Desktop\ML 2\Week 3\Customer.xlsx|||`in$`" type="V_String" />
-            <Field name="Zipcode" source="File: C:\Users\divya\Desktop\ML 2\Week 3\Customer.xlsx|||`in$`" type="Double" />
+            <Field name="CustomerID" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Data_Wrangling\Customer.xlsx|||`in$`" type="Double" />
+            <Field name="FirstName" size="255" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Data_Wrangling\Customer.xlsx|||`in$`" type="V_String" />
+            <Field name="LastName" size="255" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Data_Wrangling\Customer.xlsx|||`in$`" type="V_String" />
+            <Field name="Email" size="255" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Data_Wrangling\Customer.xlsx|||`in$`" type="V_String" />
+            <Field name="Phone" size="255" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Data_Wrangling\Customer.xlsx|||`in$`" type="V_String" />
+            <Field name="Address" size="255" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Data_Wrangling\Customer.xlsx|||`in$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Data_Wrangling\Customer.xlsx|||`in$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Data_Wrangling\Customer.xlsx|||`in$`" type="V_String" />
+            <Field name="Zipcode" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Data_Wrangling\Customer.xlsx|||`in$`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
