@@ -75,3 +75,57 @@ This project emphasizes **model interpretability, analytical reasoning, and best
 - Use the **Formula tool** to calculate prediction error:
   ```text
   abs([Score_fit] - [price])
+
+---
+
+## Error Calculation & Results
+
+This step computes the **absolute difference between predicted and actual prices**.
+
+A final **Browse** tool displays:
+- Actual price  
+- Predicted price  
+- Absolute error  
+
+---
+
+## Output
+
+- Correlation matrix and heatmap  
+- Linear Regression model performance metrics  
+- Test dataset containing:
+  - Actual values  
+  - Predicted values  
+  - Absolute prediction error  
+
+---
+
+## Tools Used
+
+- Input Data  
+- Select  
+- Association Analysis  
+- Create Samples  
+- Linear Regression  
+- Score  
+- Formula  
+- Browse  
+
+---
+
+## Key Learning Outcomes
+
+- Analyzing feature relationships using correlation analysis  
+- Applying train-test splitting in a no-code machine learning environment  
+- Building and evaluating a Linear Regression model in Alteryx  
+- Interpreting model performance on unseen data  
+- Following workflow annotation and documentation best practices  
+
+---
+
+## Notes
+
+- Tool annotations are used throughout the workflow to improve readability and maintainability  
+- This workflow focuses on **model understanding and evaluation**, not hyperparameter tuning  
+- Designed for academic learning and analytical demonstration purposes  
+
