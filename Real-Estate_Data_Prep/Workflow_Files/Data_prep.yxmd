@@ -1,63 +1,75 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
   <Nodes>
-    <Node ToolID="1">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="174" />
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Passwords />
-          <File RecordLimit="2000" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\swapn\Downloads\real_estate.csv</File>
-          <FormatSpecificOptions>
-            <HeaderRow>True</HeaderRow>
-            <IgnoreErrors>False</IgnoreErrors>
-            <AllowShareWrite>False</AllowShareWrite>
-            <ImportLine>1</ImportLine>
-            <FieldLen>254</FieldLen>
-            <SingleThreadRead>False</SingleThreadRead>
-            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
-            <Delimeter>,</Delimeter>
-            <QuoteRecordBreak>False</QuoteRecordBreak>
-            <CodePage>28591</CodePage>
-          </FormatSpecificOptions>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="price" selected="True" type="Int64" size="8" />
+            <SelectField field="year_sold" selected="True" type="Int64" size="8" />
+            <SelectField field="property_tax" selected="True" type="Int64" size="8" />
+            <SelectField field="insurance" selected="True" type="Int64" size="8" />
+            <SelectField field="beds" selected="True" type="Int64" size="8" />
+            <SelectField field="baths" selected="True" type="Int64" size="8" />
+            <SelectField field="sqft" selected="True" type="Int64" size="8" />
+            <SelectField field="year_built" selected="True" type="Int64" size="8" />
+            <SelectField field="lot_size" selected="True" type="Int64" size="8" />
+            <SelectField field="basement" selected="True" type="Int64" size="8" />
+            <SelectField field="property_type" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="1">
+          <Name>Change Data Types</Name>
+          <AnnotationText>Change Data Types</AnnotationText>
+          <DefaultAnnotationText>Change Data Types</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="378" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">price=True,year_sold=True,property_tax=True,insurance=True,beds=True,baths=True,sqft=True,year_built=True,lot_size=True,basement=True,property_type=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>real_estate.csv</DefaultAnnotationText>
+          <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="price" size="254" source="File: C:\Users\swapn\Downloads\real_estate.csv" type="V_String" />
-            <Field name="year_sold" size="254" source="File: C:\Users\swapn\Downloads\real_estate.csv" type="V_String" />
-            <Field name="property_tax" size="254" source="File: C:\Users\swapn\Downloads\real_estate.csv" type="V_String" />
-            <Field name="insurance" size="254" source="File: C:\Users\swapn\Downloads\real_estate.csv" type="V_String" />
-            <Field name="beds" size="254" source="File: C:\Users\swapn\Downloads\real_estate.csv" type="V_String" />
-            <Field name="baths" size="254" source="File: C:\Users\swapn\Downloads\real_estate.csv" type="V_String" />
-            <Field name="sqft" size="254" source="File: C:\Users\swapn\Downloads\real_estate.csv" type="V_String" />
-            <Field name="year_built" size="254" source="File: C:\Users\swapn\Downloads\real_estate.csv" type="V_String" />
-            <Field name="lot_size" size="254" source="File: C:\Users\swapn\Downloads\real_estate.csv" type="V_String" />
-            <Field name="basement" size="254" source="File: C:\Users\swapn\Downloads\real_estate.csv" type="V_String" />
-            <Field name="property_type" size="254" source="File: C:\Users\swapn\Downloads\real_estate.csv" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
     </Node>
-    <Node ToolID="4">
+    <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="462" y="102" />
+        <Position x="858" y="18" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\swapn\AppData\Local\Temp\Alteryx\Engine_23104_dad0745b6f7b40dbae5fec9e1390da62_\Engine_23104_dd1c22cecdf3b7409e0cfadfd9e40ab0~.yxdb</TempFile>
+          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_21720_37d1647fabda437d925192c72a6bc488_\Engine_21720_2c32cc52caeb4792b6037a6103827d87~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
             <View1>
-              <DefaultTab>Profile</DefaultTab>
+              <DefaultTab>Report</DefaultTab>
               <Hints>
                 <Table />
               </Hints>
@@ -74,17 +86,24 @@
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
     <Node ToolID="6">
-      <GuiSettings>
-        <Position x="294" y="174" />
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="702" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Value name="Select Fields">price=True,year_sold=True,property_tax=True,insurance=True,beds=True,baths=True,sqft=True,year_built=True,lot_size=True,basement=True,property_type=True</Value>
-          <Value name="Sample Data">False</Value>
-          <Value name="Number">True</Value>
-          <Value name="NNumber">5000</Value>
-          <Value name="Percent">False</Value>
-          <Value name="NPercent">10</Value>
+          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_21720_37d1647fabda437d925192c72a6bc488_\Engine_21720_9dd6343af3d74f63804d46de3b90f95e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -92,15 +111,15 @@
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="462" y="258" />
+        <Position x="870" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\swapn\AppData\Local\Temp\Alteryx\Engine_23104_dad0745b6f7b40dbae5fec9e1390da62_\Engine_23104_4f41759aa5ecda4794b4796e18974a21~.yxdb</TempFile>
+          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_21720_37d1647fabda437d925192c72a6bc488_\Engine_21720_69802fbe3b6c4235b0146c312e3984ce~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -123,78 +142,18 @@
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
     <Node ToolID="8">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="462" y="174" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\swapn\AppData\Local\Temp\Alteryx\Engine_23104_dad0745b6f7b40dbae5fec9e1390da62_\Engine_23104_0630f86a035ee14085b5522d6dce401c~.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Report</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="9">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="186" y="174" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="price" selected="True" type="Int64" size="8" />
-            <SelectField field="year_sold" selected="True" type="Int64" size="8" />
-            <SelectField field="property_tax" selected="True" type="Int64" size="8" />
-            <SelectField field="insurance" selected="True" type="Int64" size="8" />
-            <SelectField field="beds" selected="True" type="Int64" size="8" />
-            <SelectField field="baths" selected="True" type="Int64" size="8" />
-            <SelectField field="sqft" selected="True" type="Int64" size="8" />
-            <SelectField field="year_built" selected="True" type="Int64" size="8" />
-            <SelectField field="lot_size" selected="True" type="Int64" size="8" />
-            <SelectField field="basement" selected="True" type="Int64" size="8" />
-            <SelectField field="property_type" selected="True" />
-            <SelectField field="*Unknown" selected="False" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="10">
       <GuiSettings Plugin="PlotlyCharting">
-        <Position x="186" y="54" />
+        <Position x="282" y="30" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <ChartingFields>
             <Traces json:Array="true" xmlns:json="http://james.newtonking.com/projects/json">
-              <type>box</type>
+              <type>bar</type>
               <mode>markers</mode>
               <boxpoints>false</boxpoints>
-              <orientation>h</orientation>
-              <xsrc>sqft</xsrc>
-              <ysrc>property_type</ysrc>
+              <xsrc>property_type</xsrc>
+              <orientation>v</orientation>
             </Traces>
             <Layout>
               <title>
@@ -210,15 +169,6 @@
               <showlegend>true</showlegend>
               <hovermode>closest</hovermode>
               <xaxis>
-                <range>58.333333333333258</range>
-                <range>8891.6666666666661</range>
-                <autorange>true</autorange>
-                <title>
-                  <text>sqft</text>
-                </title>
-                <type>linear</type>
-              </xaxis>
-              <yaxis>
                 <range>-0.5</range>
                 <range>1.5</range>
                 <autorange>true</autorange>
@@ -226,6 +176,11 @@
                   <text>property_type</text>
                 </title>
                 <type>category</type>
+              </xaxis>
+              <yaxis>
+                <range>0</range>
+                <range>1762652.6315789474</range>
+                <autorange>true</autorange>
               </yaxis>
             </Layout>
           </ChartingFields>
@@ -238,9 +193,9 @@
       </Properties>
       <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
     </Node>
-    <Node ToolID="11">
+    <Node ToolID="9">
       <GuiSettings>
-        <Position x="186" y="402" />
+        <Position x="282" y="342" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -257,10 +212,14 @@
           <Value name="checkbox Imputed Values Separate Field">False</Value>
         </Configuration>
         <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
+          <Name>Imputation</Name>
+          <AnnotationText>Impute Nulls in basement column with 0</AnnotationText>
+          <DefaultAnnotationText>Imputation</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="price" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Int64" />
@@ -279,9 +238,9 @@
       </Properties>
       <EngineSettings Macro="Imputation_v3.yxmc" />
     </Node>
-    <Node ToolID="14">
+    <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="294" y="402" />
+        <Position x="474" y="342" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -292,83 +251,52 @@
             <Operands>
               <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
               <DateType>fixed</DateType>
-              <PeriodDate>2024-11-11 10:37:42</PeriodDate>
+              <PeriodDate>2026-01-31 12:06:24</PeriodDate>
               <PeriodType>
               </PeriodType>
               <PeriodCount>0</PeriodCount>
               <Operand>1000000</Operand>
-              <StartDate>2024-11-11 10:37:42</StartDate>
-              <EndDate>2024-11-11 10:37:42</EndDate>
+              <StartDate>2026-01-31 12:06:24</StartDate>
+              <EndDate>2026-01-31 12:06:24</EndDate>
             </Operands>
           </Simple>
         </Configuration>
         <Annotation DisplayMode="0">
-          <Name />
+          <Name>Filter Outlier</Name>
           <DefaultAnnotationText>[lot_size] &lt; 1000000</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
     </Node>
-    <Node ToolID="16">
+    <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="438" y="390" />
+        <Position x="630" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <FormulaFields>
             <FormulaField expression="[year_sold]-[year_built]" field="Age" size="8" type="Int64" enabled="true" />
-            <FormulaField expression="IF ([beds] = 2 &amp;&amp; [baths] = 2) THEN 1 ELSE 0 ENDIF" field="Popular_Home" size="8" type="Int64" enabled="true" />
-            <FormulaField expression="IF ([year_sold]&gt;=2010 &amp;&amp; [year_sold]&lt;=2013) THEN 1 ELSE 0 ENDIF" field="Recession_Period" size="8" type="Int64" enabled="true" />
+            <FormulaField expression="IF ([beds]=2 &amp;&amp; [baths]=2) THEN 1 ELSE 0  ENDIF" field="Popular_Home" size="8" type="Int64" enabled="true" />
+            <FormulaField expression="IF ([year_sold]&gt;=2010 &amp;&amp; [year_sold]&lt;=2013) THEN 1 ELSE 0  ENDIF" field="Recession_Period" size="8" type="Int64" enabled="true" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>Age = [year_sold]-[year_built]
-Popular_Home = IF ([beds] = 2 &amp;&amp; [baths] = 2) THE...</DefaultAnnotationText>
+Popular_Home = IF ([beds]=2 &amp;&amp; [baths]=2) THEN 1 ...</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
-    <Node ToolID="18">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="654" y="390" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Mode>Simple</Mode>
-          <Simple>
-            <Operator>&lt;</Operator>
-            <Field>Age</Field>
-            <Operands>
-              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
-              <DateType>fixed</DateType>
-              <PeriodDate>2024-11-11 11:01:16</PeriodDate>
-              <PeriodType>
-              </PeriodType>
-              <PeriodCount>0</PeriodCount>
-              <Operand>0</Operand>
-              <StartDate>2024-11-11 11:01:16</StartDate>
-              <EndDate>2024-11-11 11:01:16</EndDate>
-            </Operands>
-          </Simple>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>[Age] &lt; 0</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
-    </Node>
-    <Node ToolID="19">
+    <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="534" y="342" />
+        <Position x="774" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\swapn\AppData\Local\Temp\Alteryx\Engine_23104_dad0745b6f7b40dbae5fec9e1390da62_\Engine_23104_7ff169036247bd408e084ca6dbc9ae02~.yxdb</TempFile>
+          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_21720_37d1647fabda437d925192c72a6bc488_\Engine_21720_af6d877bd1f44664990edd4fbb9f041d~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -390,9 +318,40 @@ Popular_Home = IF ([beds] = 2 &amp;&amp; [baths] = 2) THE...</DefaultAnnotationT
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="20">
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="822" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&lt;</Operator>
+            <Field>Age</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2026-01-31 12:15:34</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2026-01-31 12:15:34</StartDate>
+              <EndDate>2026-01-31 12:15:34</EndDate>
+              <Operand>0</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Age] &lt; 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="798" y="378" />
+        <Position x="1134" y="426" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -410,9 +369,9 @@ Condo = IF [property_...</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
-    <Node ToolID="22">
+    <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="918" y="378" />
+        <Position x="1266" y="426" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -445,13 +404,13 @@ Condo = IF [property_...</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="23">
+    <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1014" y="378" />
+        <Position x="1410" y="426" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File MaxRecords="" FileFormat="0">C:\Users\swapn\Downloads\final_real_estate.csv</File>
+          <File MaxRecords="" FileFormat="0">C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\final_real_estate.csv</File>
           <Passwords />
           <Disable>False</Disable>
           <FormatSpecificOptions>
@@ -461,6 +420,7 @@ Condo = IF [property_...</DefaultAnnotationText>
             <HeaderRow>True</HeaderRow>
             <CodePage>28591</CodePage>
             <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
           </FormatSpecificOptions>
           <MultiFile value="False" />
         </Configuration>
@@ -469,66 +429,114 @@ Condo = IF [property_...</DefaultAnnotationText>
           <DefaultAnnotationText>final_real_estate.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\real_estate.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>real_estate.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="price" size="254" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\real_estate.csv" type="V_String" />
+            <Field name="year_sold" size="254" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\real_estate.csv" type="V_String" />
+            <Field name="property_tax" size="254" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\real_estate.csv" type="V_String" />
+            <Field name="insurance" size="254" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\real_estate.csv" type="V_String" />
+            <Field name="beds" size="254" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\real_estate.csv" type="V_String" />
+            <Field name="baths" size="254" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\real_estate.csv" type="V_String" />
+            <Field name="sqft" size="254" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\real_estate.csv" type="V_String" />
+            <Field name="year_built" size="254" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\real_estate.csv" type="V_String" />
+            <Field name="lot_size" size="254" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\real_estate.csv" type="V_String" />
+            <Field name="basement" size="254" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\real_estate.csv" type="V_String" />
+            <Field name="property_type" size="254" source="File: C:\Sharmila\Machine Learning\Alteryx\Alteryx\Real-Estate_Data_Prep\Data_Files\real_estate.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
   </Nodes>
   <Connections>
     <Connection>
-      <Origin ToolID="1" Connection="Output" />
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
       <Destination ToolID="9" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="6" Connection="Output" />
-      <Destination ToolID="4" Connection="Input" />
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="6" Connection="Interactive" />
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Interactive" />
       <Destination ToolID="7" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="6" Connection="Reports" />
-      <Destination ToolID="8" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="9" Connection="Output" />
       <Destination ToolID="10" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="9" Connection="Output" />
-      <Destination ToolID="6" Connection="Field Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="9" Connection="Output" />
+      <Origin ToolID="10" Connection="True" />
       <Destination ToolID="11" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="False" />
       <Destination ToolID="14" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="14" Connection="True" />
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
       <Destination ToolID="16" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="16" Connection="Output" />
-      <Destination ToolID="18" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="16" Connection="Output" />
-      <Destination ToolID="19" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="18" Connection="False" />
-      <Destination ToolID="20" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="20" Connection="Output" />
-      <Destination ToolID="22" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="22" Connection="Output" />
-      <Destination ToolID="23" Connection="Input" />
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -542,6 +550,7 @@ Condo = IF [property_...</DefaultAnnotationText>
     <DisableBrowse value="False" />
     <EnablePerformanceProfiling value="False" />
     <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
     <PredictiveToolsCodePage value="1252" />
     <DisableAllOutput value="False" />
     <ShowAllMacroMessages value="False" />
@@ -552,7 +561,7 @@ Condo = IF [property_...</DefaultAnnotationText>
     <IsTemplate value="False" />
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>real_estate_data_prep</Name>
+      <Name>Data_prep</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
@@ -567,10 +576,10 @@ Condo = IF [property_...</DefaultAnnotationText>
         <Description />
         <File />
       </Example>
-      <WorkflowId value="99261884-d14f-45a5-ab21-cf25510ee49c" />
+      <WorkflowId value="b09226cb-6a31-4320-a888-b4a0384d3d8c" />
       <Telemetry>
-        <PreviousWorkflowId value="4cd8f47b-19f5-4f25-8694-601164ebb8e1" />
-        <OriginWorkflowId value="4cd8f47b-19f5-4f25-8694-601164ebb8e1" />
+        <PreviousWorkflowId value="cef96667-bd9e-4731-8165-9c069cd8b5b0" />
+        <OriginWorkflowId value="cef96667-bd9e-4731-8165-9c069cd8b5b0" />
       </Telemetry>
       <PlatformWorkflowId value="" />
     </MetaInfo>
