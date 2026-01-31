@@ -8,7 +8,7 @@ This project emphasizes **model interpretability, analytical reasoning, and best
 
 ## Workflow Overview
 
-![Linear Regression Workflow](Linear_Regression_Workflow.png)
+![Linear Regression Workflow](Linear_Regression_workflow.png)
 
 ---
 
