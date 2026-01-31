@@ -120,7 +120,7 @@ IF [property_type]='Condo' THEN 1 ELSE 0 ENDIF
 
 ## Workflow Image
 
-![EDA and Data Preparation Workflow](workflow.png)
+![EDA and Data Preparation Workflow](Real_Estate_Data_Prep_Workflow.png)
 
 ---
 
