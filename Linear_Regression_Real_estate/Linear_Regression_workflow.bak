@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="210" y="102" />
+        <Position x="198" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -38,7 +38,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings>
-        <Position x="366" y="102" />
+        <Position x="354" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -63,11 +63,11 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="534" y="54" />
+        <Position x="522" y="18" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_37156_68cfaa0de2434869886b86404b1a4aac_\Engine_37156_82c9bb613428427cbf88ef58ef68266d~.yxdb</TempFile>
+          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_21348_129db90a205442e38ed5fc5d9886b633_\Engine_21348_e5102702e07f4c369f742bf517c55e81~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -91,11 +91,11 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="534" y="162" />
+        <Position x="522" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_37156_68cfaa0de2434869886b86404b1a4aac_\Engine_37156_92abb3f0bf1d4cd19b7197fa941485b8~.yxdb</TempFile>
+          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_21348_129db90a205442e38ed5fc5d9886b633_\Engine_21348_fcb11f80a731480ea81b44f8d154ca12~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -119,7 +119,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings>
-        <Position x="330" y="258" />
+        <Position x="318" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -141,7 +141,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="Linear_Regression">
-        <Position x="558" y="234" />
+        <Position x="546" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -182,11 +182,11 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="774" y="246" />
+        <Position x="762" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_37156_68cfaa0de2434869886b86404b1a4aac_\Engine_37156_c468d82bb56a451bb7ef03c3db54e3f1~.yxdb</TempFile>
+          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_21348_129db90a205442e38ed5fc5d9886b633_\Engine_21348_569263058b2b466b92c3e5cf9c873e03~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -210,7 +210,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="Score">
-        <Position x="762" y="438" />
+        <Position x="750" y="402" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -258,7 +258,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="942" y="438" />
+        <Position x="930" y="402" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -278,11 +278,11 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1194" y="438" />
+        <Position x="1086" y="402" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_37156_68cfaa0de2434869886b86404b1a4aac_\Engine_37156_c1ac453c84e64a3d878241ff92f9e057~.yxdb</TempFile>
+          <TempFile>C:\Users\divya\AppData\Local\Temp\Alteryx\Engine_21348_129db90a205442e38ed5fc5d9886b633_\Engine_21348_048de5ac07e44177a0d9a627a833f48b~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -306,7 +306,7 @@
     </Node>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="102" />
+        <Position x="42" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
