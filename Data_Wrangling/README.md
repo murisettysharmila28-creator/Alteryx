@@ -1,4 +1,4 @@
----
+
 # Customer Location Analysis – Roadshow Planning (Alteryx)
 
 ## Overview
@@ -12,8 +12,6 @@ The goal is to determine:
 This workflow demonstrates core Alteryx preparation and transformation techniques. :contentReference[oaicite:0]{index=0}
 
 ![Workflow Diagram](Alteryx.png)
-
----
 
 ## Dataset
 - **Input file:** `customers.csv`
